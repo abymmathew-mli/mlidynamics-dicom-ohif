@@ -14,17 +14,16 @@ This project provides guidence on deployment of [OHIF Viewer](https://ohif.org/)
 |--|--|--|
 
     Provide the following inputs:
-
-    | Parameter | Value | Description |
-    | ------------- | ----- | ----------- |
-    | Subscription | user provided | Desired subsciption to host the OHIF viewer |
-    | Resource Group | user provided | Desired Resource Group name. May be a new or existing.|
-    | Region | user provided | Desired Azure Region to host the Resource Group and Storage account website.|
-    | Storage Account Name | user provided | Desired name of storage account. This will appear in the OHIF URL.|
-    | Dicom Service Url | `Service URL` | Existing DICOM service URL (noted above) |
-    | Aad Teanant Id | `Directory (tenant) ID` | Existing Azure subscription AAD Tenant Id (noted above)|
-    | Application Client ID  | `Application (client) ID` | Existing Application Client ID (noted above)|
-    | ------------- | ----- | ----------- |
+###
+| Parameter | Value | Description |
+| -- | -- | -- |
+| Subscription | user provided | Desired subsciption to host the OHIF viewer |
+| Resource Group | user provided | Desired Resource Group name. May be a new or existing.|
+| Region | user provided | Desired Azure Region to host the Resource Group and Storage account website.|
+| Storage Account Name | user provided | Desired name of storage account. This will appear in the OHIF URL.|
+| Dicom Service Url | `Service URL` | Existing DICOM service URL (noted above) |
+| Aad Teanant Id | `Directory (tenant) ID` | Existing Azure subscription AAD Tenant Id (noted above)|
+| Application Client ID  | `Application (client) ID` | Existing Application Client ID (noted above)|
 
 - Make a note of the `storageAccountWebEndpoint` from the ARM deployment output variable. (You can find the output variables on the left-hand column, once the custom ARM template has successfully completed creating resources.)
 
